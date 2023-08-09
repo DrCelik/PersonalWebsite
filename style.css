@@ -1,0 +1,51 @@
+body {
+  background-color: grey;
+  color: white;
+  font-family: "Lilita One";
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+img {
+  height: 100px;
+  width: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.action-button {
+  border-radius: 100px;
+  border-style: hidden;
+  background-color: transparent;
+}
+
+.action-button:hover {
+  background-color: azure;
+  transform: scale(1.1);
+}
+
+.action-button:active {
+  background-color: rgb(83, 83, 83);
+}
+
+.reset-button {
+  padding: 15px 20px;
+  border-radius: 100px;
+  border-width: 3px;
+  font-size: 50px;
+  box-shadow: 0 5px rgb(83, 83, 83);
+}
+
+.reset-button:active {
+  box-shadow: 0 1px rgb(83, 83, 83);
+  background-color: rgb(154, 154, 154);
+  transform: translateY(4px);
+}
